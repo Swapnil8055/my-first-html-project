@@ -8,7 +8,7 @@ body {
 header {
 
     position: relative;
-    background-image: url('chinese-2-e1517496035165-1024x550.jpg');
+    background-image: url('./images/chinese-2-e1517496035165-1024x550.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
