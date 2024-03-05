@@ -35,8 +35,6 @@ nav {
     color: #fff;
     text-align: center;
     padding: 0.5em 0;
-    z-index: 99;
-
 }
 
 nav a {
@@ -45,6 +43,7 @@ nav a {
     padding: 1em;
     margin: 0 1em;
     z-index: 99;
+    text-decoration: none;
 }
 
 h2{
@@ -82,7 +81,7 @@ h3{
 }
 
  .main-container {
-    max-width: 1200px;
+    
     /* margin: 20px auto; */
     padding: 20px 0px 70px 50px;
 } 
@@ -126,6 +125,19 @@ img{
     font-size: 1rem;
 }
 
-.container{
-    margin-top: 6rem;
+.nav__container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.nav__menu{
+    display: flex;
+}
+
+.nav__menu li{
+    text-decoration: none;
+}
+
